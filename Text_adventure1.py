@@ -14,13 +14,13 @@ if direction1 == "left":
     print ("You lose 20 health points. You have 10 helth points left.")
     hp = hp - 20
 
-     
+
 elif direction1 == "right":
     print ("you walk to the beach but remember you do not have any swimwear.")
-    time.sleep (2) 
+    time.sleep (2)
     print ("The cool water revitalizes you. You have never felt more alive. You gain 70 health points. You now have 100 points!")
     hp += 70
-    
+
 else:
     print ("Sorry, invalid answer. Goodbye.")
 time.sleep (2)
@@ -33,14 +33,14 @@ direction2 = direction2.lower ()
 #Fly
 
 if direction2 == "fly":
-    print ("You fly above the beautiful clear waters to shore, but are too amazed by the sight to see the flying pigs approach.") 
+    print ("You fly above the beautiful clear waters to the shore, but are too amazed by the sight to see the flying pigs approach.") 
     time.sleep (2)
     print ("You see the wings flapping, and they aproach you. You try to fly faster, but they catch up and eat you.")
 hp = hp - 100
 
 
 #Swim
-     
+
 if direction2 == "swim":
     print ("You swim across the beautiful clear waters and reach the sandy shore. A grin spreads across your face. You gain 50 points.")
 
